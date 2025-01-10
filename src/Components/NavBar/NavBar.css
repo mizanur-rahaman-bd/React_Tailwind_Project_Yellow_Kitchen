@@ -1,0 +1,15 @@
+.nav{
+    @apply pt-[24px]
+}
+.navRow{
+    @apply flex justify-between items-center
+}
+.navContent{
+    @apply flex gap-[48px] items-center text-[#9093A6]
+}
+.navUser{
+    @apply flex gap-[2px] items-center
+}
+.navCart{
+    @apply flex gap-[2px] items-center
+}
