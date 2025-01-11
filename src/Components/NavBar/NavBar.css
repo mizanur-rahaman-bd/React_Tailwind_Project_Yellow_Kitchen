@@ -13,3 +13,6 @@
 .navCart{
     @apply flex gap-[2px] items-center
 }
+.nav_border span{
+    @apply w-full h-[2px] bg-[#D4D7E5] block mt-[24px] mb-[25px]
+}

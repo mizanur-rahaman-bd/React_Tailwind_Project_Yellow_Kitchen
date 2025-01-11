@@ -1,0 +1,16 @@
+.banner_main_part{
+    @apply flex justify-between items-start
+}
+.banner_text_col{
+    @apply mt-[90px]
+}
+.banner_text_col h1{
+    @apply w-[525px] font-poppines font-light text-[58px] text-[#3F4255]
+}
+.banner_button{
+    @apply mt-[88px] flex gap-[24px]
+}
+.banner_button button{
+    @apply px-[24px] py-[18px] font-martel_sans font-bold text-[16px] text-[#3F4255] rounded-[4px];
+    border: 2px solid #FFE145;
+}

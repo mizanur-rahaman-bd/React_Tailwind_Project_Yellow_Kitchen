@@ -34,6 +34,9 @@ const NavBar = () => {
         </div>
 
       </div>
+      <div className="nav_border">
+        <span></span>
+      </div>
     </nav>
     
     </>
