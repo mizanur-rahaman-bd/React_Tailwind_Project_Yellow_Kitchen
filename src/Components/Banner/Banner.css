@@ -14,3 +14,23 @@
     @apply px-[24px] py-[18px] font-martel_sans font-bold text-[16px] text-[#3F4255] rounded-[4px];
     border: 2px solid #FFE145;
 }
+.banner_delivery_part{
+    @apply w-[872px] py-[24px] px-[25px] flex gap-[46px] mb-[48px];
+    box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+.banner_delivery_time{
+    @apply flex gap-[16px]
+}
+.banner_delivery_car{
+    @apply flex gap-[16px]
+}
+.banner_delivery_french{
+    @apply flex gap-[16px]
+
+}
+.delivery_img img{
+    @apply w-[48px] h-[48px]
+}
+.delivery_text p{
+    @apply w-[182px] font-martel_sans font-light text-[#3F4255] text-[16px]
+}

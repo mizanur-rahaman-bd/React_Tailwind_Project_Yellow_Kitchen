@@ -1,0 +1,12 @@
+.restaurant{
+    @apply pb-[72px]
+}
+.restaurant_text_row{
+    @apply flex justify-between items-center mb-[48px]
+}
+.restaurant_text_row h2{
+    @apply font-poppines font-light text-[36px] text-[#3F4255]
+}
+.restaurant_text_row button{
+    @apply px-[24px] py-[14px] bg-[#F2F4FA] rounded-[4px] font-martel_sans font-bold text-[16px] text-[#9093A6]
+}

@@ -1,0 +1,7 @@
+.insta_heading{
+    @apply font-poppines font-light text-[36px] text-[#313030] mt-[21px]
+}
+.insta_img{
+    @apply flex gap-[24px] mb-[72px]
+
+}

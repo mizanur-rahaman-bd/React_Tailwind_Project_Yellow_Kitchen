@@ -1,0 +1,12 @@
+.footer{
+    @apply bg-[#3F4255] py-[48px] 
+}
+.social_row{
+    @apply flex justify-between items-center
+}
+.icon_row{
+    @apply text-white flex gap-[24px]
+}
+.privacy_row{
+    @apply font-martel_sans font-normal text-[12px] text-white flex gap-[54px]
+}

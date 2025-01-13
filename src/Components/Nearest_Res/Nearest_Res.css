@@ -1,0 +1,19 @@
+.Nearest_Res{
+    @apply w-full py-[80px] px-[172px] bg-[#D4D7E5]
+}
+.nearest_res_row{
+    @apply flex justify-between items-center
+}
+.nearest_res_text_col h2{
+    @apply font-poppines font-light text-[36px] text-[#3F4255]
+}
+.nearest_res_text_col p{
+    @apply w-[400px] font-martel_sans font-light text-[16px] mt-[24px]
+}
+.nearest_res_input_col input{
+    @apply w-[336px] h-[72px] px-[48px] py-[24px] rounded-[6px] outline-none bg-white font-martel_sans font-light text-[16px] text-[#9093A6] border-none;
+    
+}
+.nearest_res_input_col button{
+    @apply py-[25px] px-[24px] ml-[4px] rounded-[6px] bg-[#FFE145] font-martel_sans font-bold text-[16px] text-[#B79C10]
+}

@@ -22,6 +22,39 @@ const Banner = () => {
               </div>
             </div>
             <div className="banner_delivery_part">
+              <div className="banner_delivery_time">
+                <div className="delivery_img">
+                  <img src="Images/delivery_time.png" alt="time" />
+
+                </div>
+                <div className="delivery_text">
+                  <p>delivery in all paris in less than 30 minutes</p>
+
+                </div>
+
+              </div>
+              <div className="banner_delivery_car">
+              <div className="delivery_img">
+                  <img src="Images/delivery_car.png" alt="time" />
+
+                </div>
+                <div className="delivery_text">
+                  <p>Free delivery from 29 euros</p>
+
+                </div>
+
+              </div>
+              <div className="banner_delivery_french">
+              <div className="delivery_img">
+                  <img src="Images/delivery_paris.png" alt="time" />
+
+                </div>
+                <div className="delivery_text">
+                  <p>Only fresh and French products</p>
+
+                </div>
+
+              </div>
 
             </div>
           </div>
