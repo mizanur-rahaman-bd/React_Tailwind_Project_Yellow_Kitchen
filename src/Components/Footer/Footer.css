@@ -1,8 +1,26 @@
 .footer{
     @apply bg-[#3F4255] py-[48px] 
 }
+.footer_row{
+    @apply flex justify-between items-start
+}
+.footer_content_col{
+    @apply flex gap-[83px] items-start
+}
+.footer_content_col h3{
+    @apply font-poppines font-semibold text-[24px] text-white mb-[24px]
+}
+.footer_content_col ul{
+    @apply flex flex-col gap-[16px]
+}
+.footer_content_col ul li{
+    @apply font-martel_sans font-bold text-[16px] text-white 
+}
+.footer_content_col ul li a:hover{
+    @apply text-black bg-white rounded-[6px]
+}
 .social_row{
-    @apply flex justify-between items-center
+    @apply flex justify-between items-center mt-[105px]
 }
 .icon_row{
     @apply text-white flex gap-[24px]

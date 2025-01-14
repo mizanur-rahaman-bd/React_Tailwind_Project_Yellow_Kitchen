@@ -10,3 +10,6 @@
 .restaurant_text_row button{
     @apply px-[24px] py-[14px] bg-[#F2F4FA] rounded-[4px] font-martel_sans font-bold text-[16px] text-[#9093A6]
 }
+.restaurant_text_row button:hover{
+    @apply text-black bg-slate-500
+}
