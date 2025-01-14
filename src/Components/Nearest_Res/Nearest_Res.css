@@ -15,5 +15,10 @@
     
 }
 .nearest_res_input_col button{
-    @apply py-[25px] px-[24px] ml-[4px] rounded-[6px] bg-[#FFE145] font-martel_sans font-bold text-[16px] text-[#B79C10]
+    @apply py-[25px] px-[24px] ml-[4px] rounded-[6px] bg-[#FFE145] font-martel_sans font-bold text-[16px] text-[#B79C10];
+    border: 2px solid #FFE145 ;
+}
+.nearest_res_input_col button:hover{
+    @apply text-black bg-transparent;
+    
 }
